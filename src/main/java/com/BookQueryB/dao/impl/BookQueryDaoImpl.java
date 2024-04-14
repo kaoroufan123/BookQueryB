@@ -67,7 +67,7 @@ public class BookQueryDaoImpl extends BaseDao implements BookQuertDao {
         Connection conn = null;
         ResultSet rs = null;
         BookQuery bookQuery = null;
-
+/************/
         try{
             conn = getConnection();
             String sql = "select * from bookquery where bookId = ?";
